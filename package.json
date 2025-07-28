@@ -1,0 +1,48 @@
+{
+  "name": "truelog-v3",
+  "version": "3.0.0",
+  "bin": {
+    "truelog": "index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+  "node": "18.x"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@goodmind/node-cryptojs-aes": "^0.5.0",
+    "@mtproto/core": "^6.3.0",
+    "axios": "^1.7.9",
+    "bigint-crypto-utils": "^3.3.0",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.1",
+    "express-rate-limit": "^7.4.1",
+    "figlet": "^1.8.0",
+    "fs": "^0.0.1-security",
+    "https": "^1.0.0",
+    "moment": "^2.30.1",
+    "node-srp": "^0.0.1",
+    "os": "^0.1.2",
+    "srp-js": "^0.2.1",
+    "telegraf": "^4.16.3",
+    "telegram": "^2.26.8",
+    "tssrp6a": "^3.0.0"
+  },
+  "pkg": {
+    "assets": [
+      "node_modules/figlet/fonts/Slant.flf"
+    ],
+    "targets": [
+      "node18-linux-x64"
+    ]
+  },
+  "devDependencies": {},
+  "description": ""
+}
