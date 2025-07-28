@@ -129,12 +129,12 @@ function startBot(token) {
               const buttons = [...numbers];
   
               if (numbers.length > 0) {
-                  ctx.reply('*Pilih Nomor Akun Telegram:*', {
+                  ctx.reply('*Pilih Nomor Dibawah Ini Boss:*', {
                       parse_mode: 'Markdown',
                       ...Markup.inlineKeyboard(buttons)
                   });
               } else {
-                  ctx.reply('Result tidak di temukan');
+                  ctx.reply('Semoga ada kabar baik');
               }
           } else {
               console.log("❌ Failed to get number list.");
